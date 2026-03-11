@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <!-- ─────────────────────────────────────────────── -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TLC — Navigation Terminal</title>
+    <!-- ─────────────────────────────────────────────── -->
+
+    <!-- Fonts (Google CDN — Electron requires webSecurity: false or local copies) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet"/>
+
+    <!-- ─── Base styles (design tokens + reset) ──────── -->
+    <link rel="stylesheet" href="../../data/CSS/base.css"/>
+
+    <!-- ─── Electron IPC bridge ── -->
+    <script src="../serverjs/serverconnection.js"></script>
+
+    <!-- ─── Vendor libs ──────────────────────────────── -->
+    <script src="../../data/Js/InteractJs.min.js"></script>
+    <script src="../../data/Js/Sortable.min.js"></script>
+
+    <!-- ─────────────────────────────────────────────── -->
+  </head>
+
+  <body>
+
+    <!-- ─── ROOT CUSTOM ELEMENT ──────────────────────── -->
+    <tlc-map></tlc-map>
+
+    <!-- ─────────────────────────────────────────────── -->
+
+    <!-- ─── Shared data / state ── -->
+    <script src="../../data/Js/data/locations.js"></script>
+    <script src="../../data/Js/data/state.js"></script>
+
+    <!-- ─── Utilities ────────────────────────────────── -->
+    <script src="../../data/Js/utils/coords.js"></script>
+    <script src="../../data/Js/utils/storage.js"></script>
+    <script src="../../data/Js/utils/notify.js"></script>
+
+    <!-- ─── Custom Elements ── -->
+    <script src="../../data/Js/components/TlcNotification.js"></script>
+    <script src="../../data/Js/components/TlcContextMenu.js"></script>
+    <script src="../../data/Js/components/TlcModal.js"></script>
+    <script src="../../data/Js/components/TlcSidebar.js"></script>
+    <script src="../../data/Js/components/TlcLegend.js"></script>
+    <script src="../../data/Js/components/TlcControls.js"></script>
+    <script src="../../data/Js/components/TlcMap.js"></script>
+
+    <!-- ─────────────────────────────────────────────── -->
+  </body>
+
+</html>

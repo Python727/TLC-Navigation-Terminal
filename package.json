@@ -1,0 +1,41 @@
+{
+  "name": "tlc-navigation-terminal",
+  "productName": "TLC Navigation Terminal",
+  "version": "0.0.1",
+  "description": "TLC Navigation Terminal By Python.72",
+  "main": "src/server/serverjs/index.js",
+  "files": [
+    "out"
+  ],
+  "scripts": {
+    "start": "electron-forge start",
+    "make": "electron-forge make",
+    "debug": "npm run start -- --inspect-electron"
+  },
+  "keywords": [],
+  "author": "Python72",
+  "license": "MIT",
+  "dependencies": {
+    "async-lock": "^1.4.1",
+    "axios": "^1.9.0",
+    "electron-prompt": "^1.7.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "electron-store": "^7.0.3",
+    "express": "^5.1.0",
+    "gl-matrix": "^3.4.3",
+    "node-emoji": "^2.2.0",
+    "node-fetch": "^3.3.2",
+    "node-zxing": "^0.1.4",
+    "systeminformation": "^5.26.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-deb": "^7.8.1",
+    "@electron-forge/maker-rpm": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/publisher-github": "^7.8.1",
+    "electron": "^36.9.5"
+  }
+}
