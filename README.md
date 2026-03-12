@@ -25,7 +25,7 @@ An interactive map and planning tool for **The Last Caretaker**, built with Elec
 - **Interactive Map** — Navigate stations and locations across zones with drag & zoom
 - **Location Info** — View details, resources, enemies and notes for each station
 - **Waypoints & Markers** — Set custom waypoints and color-coded markers
-- **Fog of War** — Toggle visibility of unexplored areas
+- **Fog of Unknown** — Toggle visibility of unexplored areas
 - **Human Growth Calculator** — Plan which memories and food items to use for growing humans, with inventory tracking and auto-allocation
 - **Persistent State** — All progress, notes and inventory saved automatically
  
